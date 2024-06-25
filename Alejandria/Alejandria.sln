@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alejandria", "Alejandria.csproj", "{0F95B338-C2E2-4BE4-B99F-7E4F450DF4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.ViewModels", "..\Alejandria.ViewModels\Alejandria.ViewModels.csproj", "{EDEE331E-883B-46F9-8512-52EC454C367F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.Services", "..\Alejandria.Services\Alejandria.Services.csproj", "{9A6DC283-91F7-4E12-A9CD-2793922F188E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.Models", "..\Alejandria.Models\Alejandria.Models.csproj", "{7EF0FF6C-E97F-48F8-93B5-707B77C0AC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.Interfaces", "..\Alejandria.Interfaces\Alejandria.Interfaces.csproj", "{FA4500F7-46D0-455E-81F6-6D9A8DC13D5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.DataAccess", "..\Alejandria.DataAccess\Alejandria.DataAccess.csproj", "{F124B4C2-8EEF-46DA-8BAC-C1DC3D87F3AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F95B338-C2E2-4BE4-B99F-7E4F450DF4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F95B338-C2E2-4BE4-B99F-7E4F450DF4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F95B338-C2E2-4BE4-B99F-7E4F450DF4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F95B338-C2E2-4BE4-B99F-7E4F450DF4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEE331E-883B-46F9-8512-52EC454C367F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEE331E-883B-46F9-8512-52EC454C367F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEE331E-883B-46F9-8512-52EC454C367F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEE331E-883B-46F9-8512-52EC454C367F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6DC283-91F7-4E12-A9CD-2793922F188E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6DC283-91F7-4E12-A9CD-2793922F188E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6DC283-91F7-4E12-A9CD-2793922F188E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6DC283-91F7-4E12-A9CD-2793922F188E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF0FF6C-E97F-48F8-93B5-707B77C0AC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF0FF6C-E97F-48F8-93B5-707B77C0AC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF0FF6C-E97F-48F8-93B5-707B77C0AC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF0FF6C-E97F-48F8-93B5-707B77C0AC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4500F7-46D0-455E-81F6-6D9A8DC13D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4500F7-46D0-455E-81F6-6D9A8DC13D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4500F7-46D0-455E-81F6-6D9A8DC13D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4500F7-46D0-455E-81F6-6D9A8DC13D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F124B4C2-8EEF-46DA-8BAC-C1DC3D87F3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F124B4C2-8EEF-46DA-8BAC-C1DC3D87F3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F124B4C2-8EEF-46DA-8BAC-C1DC3D87F3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F124B4C2-8EEF-46DA-8BAC-C1DC3D87F3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55103C36-109C-4FA2-941D-D6500C45D72F}
+	EndGlobalSection
+EndGlobal
