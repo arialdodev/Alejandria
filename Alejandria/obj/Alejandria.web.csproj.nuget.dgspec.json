@@ -244,7 +244,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Arialdo\\Alejandria\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj": {
+                "projectPath": "C:\\Arialdo\\Alejandria\\Alejandria.DataAccess\\Alejandria.DataAccess.csproj"
+              },
+              "C:\\Arialdo\\Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj": {
+                "projectPath": "C:\\Arialdo\\Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

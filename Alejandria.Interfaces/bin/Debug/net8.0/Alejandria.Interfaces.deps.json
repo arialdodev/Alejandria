@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Alejandria.Interfaces/1.0.0": {
+        "dependencies": {
+          "Alejandria.Models": "1.0.0"
+        },
+        "runtime": {
+          "Alejandria.Interfaces.dll": {}
+        }
+      },
+      "Alejandria.Models/1.0.0": {
+        "runtime": {
+          "Alejandria.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alejandria.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alejandria.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

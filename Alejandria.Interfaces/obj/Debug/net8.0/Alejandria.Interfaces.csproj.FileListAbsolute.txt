@@ -1,0 +1,16 @@
+C:\Arialdo\Alejandria\Alejandria.Interfaces\bin\Debug\net8.0\Alejandria.Interfaces.deps.json
+C:\Arialdo\Alejandria\Alejandria.Interfaces\bin\Debug\net8.0\Alejandria.Interfaces.dll
+C:\Arialdo\Alejandria\Alejandria.Interfaces\bin\Debug\net8.0\Alejandria.Interfaces.pdb
+C:\Arialdo\Alejandria\Alejandria.Interfaces\bin\Debug\net8.0\Alejandria.Models.dll
+C:\Arialdo\Alejandria\Alejandria.Interfaces\bin\Debug\net8.0\Alejandria.Models.pdb
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.csproj.AssemblyReference.cache
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.AssemblyInfoInputs.cache
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.AssemblyInfo.cs
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.csproj.CoreCompileInputs.cache
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.sourcelink.json
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandr.761A89A3.Up2Date
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.dll
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\refint\Alejandria.Interfaces.dll
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\Alejandria.Interfaces.pdb
+C:\Arialdo\Alejandria\Alejandria.Interfaces\obj\Debug\net8.0\ref\Alejandria.Interfaces.dll

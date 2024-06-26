@@ -1,0 +1,12 @@
+C:\Arialdo\Alejandria\Alejandria.Models\bin\Debug\net8.0\Alejandria.Models.deps.json
+C:\Arialdo\Alejandria\Alejandria.Models\bin\Debug\net8.0\Alejandria.Models.dll
+C:\Arialdo\Alejandria\Alejandria.Models\bin\Debug\net8.0\Alejandria.Models.pdb
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\Alejandria.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\Alejandria.Models.AssemblyInfoInputs.cache
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\Alejandria.Models.AssemblyInfo.cs
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\Alejandria.Models.csproj.CoreCompileInputs.cache
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\Alejandria.Models.sourcelink.json
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\Alejandria.Models.dll
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\refint\Alejandria.Models.dll
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\Alejandria.Models.pdb
+C:\Arialdo\Alejandria\Alejandria.Models\obj\Debug\net8.0\ref\Alejandria.Models.dll

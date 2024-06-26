@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Alejandria.DataAccess\Alejandria.DataAccess.csproj" />
+    <ProjectReference Include="..\Alejandria.Interfaces\Alejandria.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

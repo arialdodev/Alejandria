@@ -1533,6 +1533,10 @@
       "Alejandria.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Alejandria.DataAccess": "1.0.0",
+          "Alejandria.Interfaces": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Alejandria.Services.dll": {}
         },
