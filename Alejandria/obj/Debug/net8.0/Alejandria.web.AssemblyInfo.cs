@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alejandria.web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c95e0c59b88e2ef472e8a62edbc201932404d25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5073bb35a0f330f189ba086b884406572f6f905")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alejandria.web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alejandria.web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
