@@ -1,0 +1,23 @@
+﻿@model Autor
+
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Crear Autor</title>
+</head>
+<body>
+    <form asp-action="Crear" method="post"> 
+
+        <input class="d-none" asp-for="Id" />
+
+        <div>
+            <label asp-for="Nombre">Cual es tu Nombre:</label>
+            <input asp-for="Nombre" required />
+        </div>
+        <div>
+            <label asp-for="Sexo">Cual es tu Sexo:</label>
+            <input asp-for="Sexo" required />
+        </div>
+        <button type="submit">Crear Autor</button>
+    </form>
+</body>

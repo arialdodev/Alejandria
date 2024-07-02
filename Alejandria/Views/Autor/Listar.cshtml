@@ -1,0 +1,52 @@
+﻿@model BuscarAyLViewModel
+<div class="row">
+    <div class="col-7">
+    </div>
+    <form class="d-flex col-5 justify-content-md-end" asp-action="Listar">
+        <input asp-for="BuscarNombre" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
+</div>
+<form class="d-flex float-end" asp-action="Formulario" method="get">
+    <button class="btn btn-outline-success mb-2 " type="submit">Crear Autor</button>
+</form>
+<div class="row justify-content-center">
+    <div class="col-11 col-lg-10 col-xl-8 py-4">
+        <h2>Lista de autores que se inscribieron a la pagina </h2>
+        <table class="table table-bordered table-striped table-sm">
+
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Sexo</th>
+                    <th></th>
+                </tr>
+
+
+            </thead>
+            <tbody>
+
+                @foreach (Autor autor in Model.Autores!)
+                {
+                    <tr>
+                        <td class="col"> @autor.Nombre</td>
+                        <td>@autor.Sexo</td>
+                        <td class="d-flex d-inline justify-content-center">
+                            <form class="mr-2" asp-action="Eliminar" asp-route-Id="@autor.Id" method="post">
+                                <button type="submit">Eliminar</button>
+                            </form>
+
+                            <form asp-action="Formulario" method="get">
+                                <input class="d-none" asp-for="@autor.Id" />
+                                <input class="d-none" asp-for="@autor.Nombre" />
+                                <input class="d-none" asp-for="@autor.Sexo" />
+
+                                <button type="submit">Editar </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

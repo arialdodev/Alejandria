@@ -1,0 +1,39 @@
+﻿@model CrearLibroViewModel
+
+<form asp-action="CrearEditar" method="post">
+
+    <input class="d-none" asp-for="@Model.Libro.Id" />
+
+    <div>
+        <label asp-for="@Model.Libro.Nombre">Nombre del libro:</label>
+        <input asp-for="@Model.Libro.Nombre" required />
+    </div>
+    <div>
+        <label asp-for="@Model.Libro.Idioma">Idioma del libro:</label>
+        <input asp-for="@Model.Libro.Idioma" required />
+    </div>
+    <div>
+        <label asp-for="@Model.Libro.Descripcion">Descripcion del libro:</label>
+        <input asp-for="@Model.Libro.Descripcion" required />
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="@Model.Autores" class="form-label">
+            Esoje Tu Autor
+        </label>
+
+        <select asp-for="@Model.Libro.AutorId" class="form-select">
+            @foreach (Autor autor in Model.Autores)
+            {
+                <option value="@autor.Id">@autor.Nombre </option>
+
+            }
+        </select>
+    </div>
+
+
+    <button type="submit">
+        @(Model.Libro is null ? "Crear Libro" : "Editar Libro")
+    </button>
+</form>

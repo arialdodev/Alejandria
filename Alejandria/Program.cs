@@ -1,4 +1,7 @@
 using Alejandria.DataAccess;
+using Alejandria.DataAccess.Repositories;
+using Alejandria.Interfaces;
+using Alejandria.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +14,12 @@ builder.Services.AddDbContext<AlejandriaDbContext>(opts =>
     opts.UseSqlServer(
       builder.Configuration["ConnectionStrings:DbConnection"]);
 });
+
+builder.Services.AddScoped<IAutorRepository, AutorRepository>();
+builder.Services.AddScoped<IAutorServices, AutorServices>();
+
+builder.Services.AddScoped<ILibroRepository, LibroRepository>();
+builder.Services.AddScoped<IServicesLibro, LibroServices>();
 
 var app = builder.Build();
 
